@@ -1,0 +1,50 @@
+/* 1. Box Sizing & Margin/Padding Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Smooth Scrolling & Root Setup */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 3. Body Defaults & Anti-Flicker */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+
+  overflow-x: hidden; 
+}
+
+/* 4. Responsive Images & Media */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 6. List & Link Reset */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
