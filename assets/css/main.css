@@ -849,6 +849,16 @@
     gap: 1.5rem;
   }
 
+  /* About */
+  .about__inner {
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+  }
+  .about__heading-outline,
+  .about__heading-solid {
+    font-size: 4.5rem;
+  }
+
   /* Biography */
   .biography__container {
     padding: 3rem 2rem;
@@ -926,6 +936,23 @@
   .secrets__card-inner {
     width: 100%;
     max-width: 24rem;
+  }
+
+  /* About */
+  .about__inner {
+    padding: 0 1.5rem;
+    gap: 2rem;
+  }
+  .about__heading-outline,
+  .about__heading-solid {
+    font-size: 3rem;
+  }
+  .about__content-title {
+    font-size: 2rem;
+  }
+  .about__content-text {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
   }
 
   /* Temoignages */
